@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.special-x {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.special-x:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 40px;
+}
+
+.card-title {
+    font-family: 'Arial', sans-serif;
+}
+
+.card-text {
+    font-family: 'Arial', sans-serif;
+}
