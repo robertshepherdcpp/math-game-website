@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const canvas = document.getElementById('gameCanvas');
     const ctx = canvas.getContext('2d');
     const box = 20;
-    let snake = [{x: 20 * box, y: 20 * box}];
+    let snake = [{x: 9 * box, y: 10 * box}];
     let score = 0;
     let food = {x: Math.floor(Math.random()*20) * box, y: Math.floor(Math.random()*20) * box};
     let d;
